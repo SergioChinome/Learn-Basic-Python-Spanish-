@@ -1,0 +1,16 @@
+Un diccionario (dict) es una colección de pares clave:valor. Es decir, cada elemento tiene una clave (key) única que apunta a un valor (value).
+
+Ejemplo de diccionario:
+
+persona = {
+    "nombre": "Carlos",
+    "edad": 28,
+    "ciudad": "Bogotá"
+}
+
+
+Aqui:
+nombre,edad,ciudad son las CLAVES
+Carlos,28,Bogotá son los VALORES
+
+
