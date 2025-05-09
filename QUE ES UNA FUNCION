@@ -26,6 +26,23 @@ Parámetros: nombres que se usan en la definición de la función.
 
 Argumentos: valores reales que se pasan cuando llamas a la función.
 
+#Crea una funcion para saludar 
+# Crea una funcion llamada saludar_usuario que reciba un nombre como argumento y salude a esa persona 
+#################################################################################################################################
+
+# EJERCICIO 1
+def saludar_usuario(nombre):
+    print(f"Hola, {nombre}. Bienvenido a python!")
+           
+saludar_usuario("TuNombre")
+
+# Pedir nombre al usuario
+def saludar_usuario():
+    nombre = input("Escribe tu nombre: ")
+    print(f"Hola,{nombre}. Bienvenido a Python")
+saludar_usuario()
+
+
 
 
 
