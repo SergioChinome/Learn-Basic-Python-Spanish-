@@ -1,0 +1,33 @@
+Definicion:
+        #***FUNCION ***
+            Se usa def para definir una funcion:
+                Ejemplo:
+                    def saludar():
+                        print("Hola")
+        # Para usarla se usa 
+                    saludar()
+
+        *** ARGUMENTOS ***
+            Los argumentos son los valores que le pasas a una función para que los use en su tarea.
+                    Ejemplo:
+                        def saludar(nombre):
+                            print ("Hola,{nombre}")
+                        -- > "nombre" es un parametro -->  lo que la funcion espera recibir
+                        -- > "Juan" es un argumento --> el valor que realmente se pasa 
+
+                        Actividades:
+                            def sumar(a, b):
+                                return a + b
+
+                        resultado = sumar(3, 5) 
+                        print(resultado) --> # Salida: 8
+                            
+Parámetros: nombres que se usan en la definición de la función.
+
+Argumentos: valores reales que se pasan cuando llamas a la función.
+
+
+
+
+
+
